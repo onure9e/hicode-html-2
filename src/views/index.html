@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Ödev</title>
+</head>
+<body>
+    <h1>Onur Ege</h1>
+    <h2>Hakkımda</h2>
+    <p>Merhaba! Ben Onur Ege! Türkiyede yaşıyorum.Bilgisayar ile uğraşmayı çok seviyorum.</p>
+    <h2>Sevdiğim dizilier:</h2>
+    <ol>
+        <ul>Arka Sokaklar</ul>
+        <img onclick="gönder('https://www.imdb.com/title/tt0845088/?ref_=nv_sr_srsg_0')" src="../images/arka_sokaklar.jpg">
+        <ul>La Casè De Papel</ul>
+        <img onclick="gönder('https://www.imdb.com/title/tt6468322/?ref_=nv_sr_srsg_1')" src="../images/la_case_de_papel.jpg">
+    </ol>
+    <h2>Sevdiğim Kitaplar</h2>
+    <ol>
+        <ul>Harry Potter Ölüm Yâdigarları</ul>
+        <img onclick="gönder('https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows?ac=1&from_search=true&qid=rX4T369Xin&rank=3')" src="../images/harry_potter.jpg">
+        <ul>Kuyucaklı Yusuf</ul>
+        <img onclick="gönder('https://www.goodreads.com/book/show/1844941.Kuyucakl_Yusuf?from_search=true&from_srp=true&qid=NbofirRMJk&rank=1')" src="../images/kuyucaklı_yusuf.webp">
+    </ol>
+</body>
+</html>
+<script>
+    function gönder(site) {
+        window.location.href = site;
+        // arka sokaklar https://www.imdb.com/title/tt0845088/?ref_=nv_sr_srsg_0
+        // la case de papel https://www.imdb.com/title/tt6468322/?ref_=nv_sr_srsg_1
+        // k yusuf https://www.goodreads.com/book/show/1844941.Kuyucakl_Yusuf?from_search=true&from_srp=true&qid=NbofirRMJk&rank=1
+        // potter https://www.goodreads.com/book/show/136251.Harry_Potter_and_the_Deathly_Hallows?ac=1&from_search=true&qid=rX4T369Xin&rank=3
+    }
+</script>
